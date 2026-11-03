@@ -1,12 +1,16 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import {ReferenciasMaterialModule} from '../shared/modulos/referencias-material.module';
 
 @Component({
-  imports: [RouterOutlet],
   selector: 'app-root',
-  styleUrl: './app.css',
+  imports: [
+    RouterOutlet,
+    ReferenciasMaterialModule
+  ],
   templateUrl: './app.html',
+  styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('CampeonatoFIFA');
+  protected readonly title = signal('CampeonatosFIFA');
 }
