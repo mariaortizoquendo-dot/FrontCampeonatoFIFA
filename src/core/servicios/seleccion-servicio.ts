@@ -19,6 +19,10 @@ export class SeleccionServicio {
     return this.http.get<Seleccion[]>(this.url);
   }
 
+  public buscar(dato: String): Observable<Seleccion[]> {
+    return this.http.get<Seleccion[]>(`${this.url}/buscar/${dato}`);
+  }
+
   public agregar(seleccion: Seleccion): Observable<Seleccion> {
     return this.http.post<Seleccion>(this.url, seleccion);
   }
@@ -32,3 +36,4 @@ export class SeleccionServicio {
   }
 
 }
+
