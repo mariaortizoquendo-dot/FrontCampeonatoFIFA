@@ -1,7 +1,7 @@
-import { Campeonato } from './Campeonato';
-import { Estadio } from './Estadio';
-import { Fase } from './Fase';
-import { Seleccion } from './Seleccion';
+import { Campeonato } from "./campeonato";
+import { Estadio } from "./estadio";
+import { Fase } from "./fase";
+import { Seleccion } from "./Seleccion";
 
 export interface Encuentro {
   id: number;

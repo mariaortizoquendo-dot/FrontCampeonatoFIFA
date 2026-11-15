@@ -1,4 +1,4 @@
-import { Seleccion } from './Seleccion';
+import { Seleccion } from "./Seleccion";
 
 export interface Ciudad {
   id: number;

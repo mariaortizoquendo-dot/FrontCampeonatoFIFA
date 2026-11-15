@@ -1,4 +1,4 @@
-import { Grupo } from "./Grupo";
+import { Grupo } from "./grupo";
 import { Seleccion } from "./Seleccion";
 
 export interface GrupoPais {

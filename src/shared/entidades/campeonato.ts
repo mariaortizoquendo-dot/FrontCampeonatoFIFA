@@ -1,7 +1,5 @@
-import { Seleccion } from './Seleccion';
-import { Campeonato } from './Campeonato';
-
-export interface CampeonatoPais {
-  campeonato: Campeonato;
-  pais: Seleccion;
+export interface Campeonato {
+  id: number;
+  nombre: string;
+  año: number;
 }
